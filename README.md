@@ -58,7 +58,7 @@ Whether you're learning, debugging, or optimizing — this tool has your back. �
 - MONGO_URI=your-mongodb-uri
 
 # 🧠 About the AI
-- This project uses Google Gemini 1.5 Flash to:
+- This project uses Google Gemini 2.5 Flash to:
 - Review code for bugs, readability, and performance
 - Provide secure and best practice suggestions
 - Highlight language-specific improvements
