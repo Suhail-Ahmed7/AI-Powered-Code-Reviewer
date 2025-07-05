@@ -21,7 +21,11 @@ Say goodbye to hours of code reviews!
 ## 🔥 Demo Preview
 
 ### 👨‍💻 Code Editor
-<img src="./Frontend/src/assets/pic1.png" width="600" alt="Home Preview"/>
+<img src="./Frontend/src/assets/pic1.png" width="600" alt="Home Light Preview"/>
+<img src="./Frontend/src/assets/pic2.png" width="600" alt="Home  Dark Preview"/>
+<img src="./Frontend/src/assets/pic3.png" width="600" alt="Code"/>
+<img src="./Frontend/src/assets/pic4.png" width="600" alt="AI Response"/>
+<img src="./Frontend/src/assets/pic5.png" width="600" alt="AI Preview History"/>
 
 
 
