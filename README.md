@@ -68,4 +68,4 @@ Whether you're learning, debugging, or optimizing — this tool has your back. �
 - If you want to add new languages or features, feel free to fork and submit a PR.
 
 #  Author
-Made with ❤️ by Suhail Ahmed — Learning, Building, and Sharing
+Made with ❤️ by **Suhail Ahmed** — Learning, Building, and Sharing
