@@ -1,4 +1,4 @@
-# 🎯 AI Code Reviewer — Review Smarter, Not Harder!🤖💡
+# 🎯AI Code Reviewer — Review Smarter, Not Harder!🤖💡
 
 Say goodbye to hours of code reviews!  
 **AI Code Reviewer** is a powerful tool that uses Google Gemini 🤖 to give instant, professional feedback on your code. Supports multiple languages, clean UI, dark/light mode, and full history tracking! 🎯
@@ -20,8 +20,8 @@ Say goodbye to hours of code reviews!
 
 ## 🔥 Demo Preview
 
-> _Add screenshots/gif previews of the app here_  
-> E.g. Code Editor ➡️ AI Feedback ➡️ Review History
+### 👨‍💻 Code Editor
+![Home](Frontend/src/assets/pic1.pngpic1.png)
 
 ---
 
