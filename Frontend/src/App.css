@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.light-theme {
+  background: #f4f4f9;
+  color: #1e1e1e;
+}
+
+body.light-theme header {
+  background: linear-gradient(90deg, #3f51b5, #00acc1);
+  box-shadow: 0 4px 15px rgba(0, 172, 193, 0.3);
+}
+
+body.light-theme header h1 {
+  color: #ffffff;
+  text-shadow: none;
+}
+
+body.light-theme .code-input,
+body.light-theme .review-history {
+  background: #ffffff;
+  color: #1e1e1e;
+  box-shadow: 0 6px 20px rgba(0, 172, 193, 0.1);
+  border: 1px solid rgba(0, 172, 193, 0.2);
+}
+
+body.light-theme .code-input label {
+  color: #333;
+}
+
+body.light-theme .code-input select,
+body.light-theme .code-input textarea {
+  background: #f9f9f9;
+  color: #1e1e1e;
+}
+
+body.light-theme .feedback {
+  background: #f0faff;
+  border-color: rgba(0, 188, 212, 0.2);
+}
+
+body.light-theme .review-item {
+  background: #f9f9f9;
+  border-color: rgba(0, 188, 212, 0.2);
+}
+
+body.light-theme .nav-buttons button {
+  background-color: #1976d2;
+  color: white;
+}
+
+body.light-theme .nav-buttons button:hover:not(:disabled) {
+  background-color: #1565c0;
+}
+
+.theme-toggle {
+  background: #ffffff33;
+  color: #fff;
+  border: 1px solid #ffffff55;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  float: right;
+  margin-top: -2.5rem;
+}
+
+body.light-theme .theme-toggle {
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0a192f, #1a365d);
+  color: #e6f0fa;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(90deg, #4c51bf, #00bcd4);
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 188, 212, 0.3);
+  
+}
+
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(0, 188, 212, 0.7);
+}
+
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.code-input, .review-history {
+  background: rgba(10, 25, 47, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 188, 212, 0.2);
+  border: 1px solid rgba(0, 188, 212, 0.3);
+  margin-bottom: 2.5rem;
+  transition: transform 0.3s ease;
+}
+
+.code-input:hover, .review-history:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.4);
+}
+
+.code-input h2, .review-history h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #00bcd4;
+  margin-bottom: 1.5rem;
+}
+
+.code-input form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.code-input .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.code-input label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #b0bec5;
+  margin-bottom: 0.5rem;
+}
+
+.code-input select,
+.code-input textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid rgba(0, 188, 212, 0.3);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: rgba(15, 35, 60, 0.8);
+  color: #e6f0fa;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.code-input select:focus,
+.code-input textarea:focus {
+  outline: none;
+  border-color: #00bcd4;
+  box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.2);
+}
+
+.code-input textarea {
+  font-family: 'Fira Code', monospace;
+  min-height: 250px;
+  resize: vertical;
+  padding: 1rem 1rem 1rem 3rem;
+}
+
+.code-input textarea::before {
+  content: '1\n2\n3\n4\n5\n6\n7\n8\n9\n10';
+  position: absolute;
+  left: 0.5rem;
+  top: 1rem;
+  color: #6b7280;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  pointer-events: none;
+}
+
+.code-input button {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(90deg, #4c51bf, #00bcd4);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.code-input button:hover {
+  background: linear-gradient(90deg, #00bcd4, #4c51bf);
+  transform: scale(1.03);
+}
+
+.code-input button:disabled {
+  background: #6b7280;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.error {
+  color: #ef5350;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  background: rgba(239, 83, 80, 0.1);
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid rgba(239, 83, 80, 0.3);
+}
+
+.feedback {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(15, 35, 60, 0.8);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 188, 212, 0.3);
+}
+
+.feedback h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #00bcd4;
+  margin-bottom: 0.75rem;
+}
+
+.review-history .no-reviews {
+  color: #90a4ae;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  padding: 1rem;
+}
+
+.review-item {
+  border-bottom: 1px solid rgba(0, 188, 212, 0.3);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.review-item h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #00bcd4;
+  margin-bottom: 0.5rem;
+}
+
+.review-item p {
+  font-size: 0.9rem;
+  color: #90a4ae;
+  margin-top: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  .code-input, .review-history {
+    padding: 1.25rem;
+  }
+
+  .code-input textarea {
+    min-height: 200px;
+  }
+}
+.review-history {
+  padding: 1.5rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.review-item {
+  margin-bottom: 1rem;
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 1rem;               
+  margin-top: 2rem;
+  flex-wrap: wrap;         
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+main {
+  padding-top: 100px; /* Adjust if header height changes */
+}
+
+button {
+  background-color: #444;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #555;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
