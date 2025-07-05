@@ -32,6 +32,10 @@ Whether you're learning, debugging, or optimizing — this tool has your back. �
 
 </div>
 
+## 🌐 Live Demo
+
+[![Live Preview](https://img.shields.io/badge/Visit%20Live%20App-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-powered-code-reviewer-ruby.vercel.app)
+
 ---
 
 ## 🛠️ Tech Stack
