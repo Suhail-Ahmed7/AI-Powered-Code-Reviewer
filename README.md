@@ -1,43 +1,67 @@
-# 🎯AI Code Reviewer — Review Smarter, Not Harder!🤖💡
+# 🎯 AI Code Reviewer — *Review Smarter, Not Harder!* 🤖💡
 
-Say goodbye to hours of code reviews!  
-**AI Code Reviewer** is a powerful tool that uses Google Gemini 🤖 to give instant, professional feedback on your code. Supports multiple languages, clean UI, dark/light mode, and full history tracking! 🎯
-
----
-
-## 🚀 Features
-
-✨ Instant AI Code Reviews  
-🧠 Supports Multiple Languages: `JavaScript`, `Python`, `Java`, `C++`, `Ruby`  
-📋 Smart Language Detection  
-📜 Review History with Navigation  
-🌗 Dark/Light Mode Toggle  
-📌 Fixed Header for Seamless Experience  
-🎯 Simple and Elegant UI  
-💾 Save & Fetch from MongoDB
+🚀 Say goodbye to tedious manual code reviews!  
+**AI Code Reviewer** empowers developers by using **Google Gemini AI** to instantly generate expert-level code feedback.  
+Whether you're learning, debugging, or optimizing — this tool has your back. 🧠✨
 
 ---
 
-## 🔥 Demo Preview
+## ⚡ Key Features
 
-### 👨‍💻 Code Editor
-<img src="./Frontend/src/assets/pic1.png" width="600" alt="Home Light Preview"/>
-<img src="./Frontend/src/assets/pic2.png" width="600" alt="Home  Dark Preview"/>
-<img src="./Frontend/src/assets/pic3.png" width="600" alt="Code"/>
-<img src="./Frontend/src/assets/pic4.png" width="600" alt="AI Response"/>
-<img src="./Frontend/src/assets/pic5.png" width="600" alt="AI Preview History"/>
+- ✨ **Instant AI Code Reviews**
+- 🧠 **Smart Language Detection**
+- 💬 **AI Feedback with Detailed Suggestions**
+- 🌐 **Multi-Language Support:** `JavaScript`, `Python`, `Java`, `C++`, `Ruby`
+- 📜 **Full Review History with One-by-One Navigation**
+- 🌗 **Dark/Light Mode Toggle**
+- 📌 **Fixed Header for Seamless Navigation**
+- 🧼 **Clean, Responsive UI**
+- 💾 **MongoDB Integrated Storage**
 
+---
 
+## 🔥 Live Preview (Screenshots)
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
+
+  <img src="./Frontend/src/assets/pic1.png" width="260" alt="Light Mode Preview"/>
+  <img src="./Frontend/src/assets/pic2.png" width="260" alt="Dark Mode Preview"/>
+  <img src="./Frontend/src/assets/pic3.png" width="260" alt="Code Input"/>
+  <img src="./Frontend/src/assets/pic4.png" width="260" alt="AI Feedback"/>
+  <img src="./Frontend/src/assets/pic5.png" width="260" alt="History View"/>
+
+</div>
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tech        | Description              |
-|-------------|--------------------------|
-| 🧠 Gemini API | AI content generation     |
-| ⚛️ React     | Frontend SPA              |
-| 🧪 PrismJS   | Code syntax highlighting |
-| 🌍 Express.js | REST API backend         |
-| 🍃 MongoDB   | NoSQL database            |
-| 🎨 CSS       | Custom styling (Dark/Light) |
+| ⚙️ Tech         | 📝 Description               |
+|----------------|------------------------------|
+| 🧠 Gemini API   | AI-generated code feedback   |
+| ⚛️ React        | Frontend user interface      |
+| 🧪 PrismJS      | Code syntax highlighting     |
+| 🌍 Express.js   | Node-based backend API       |
+| 🍃 MongoDB      | Document-based database      |
+| 🎨 CSS          | Responsive theme styling     |
+
+## Install dependencies
+- cd Backend && npm install
+- cd ../Frontend && npm install
+
+# Create your .env in /Backend
+- GOOGLE_GEMINI_KEY=your-api-key
+- MONGO_URI=your-mongodb-uri
+
+# 🧠 About the AI
+- This project uses Google Gemini 1.5 Flash to:
+- Review code for bugs, readability, and performance
+- Provide secure and best practice suggestions
+- Highlight language-specific improvements
+
+# 🙌 Contributing
+- Pull requests are welcome!
+- If you want to add new languages or features, feel free to fork and submit a PR.
+
+#  Author
+Made with ❤️ by Suhail Ahmed — Learning, Building, and Sharing
