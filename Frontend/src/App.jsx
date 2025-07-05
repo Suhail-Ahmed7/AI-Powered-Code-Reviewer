@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import CodeInput from './components/CodeInput';
 import ReviewHistory from './components/ReviewHistory';
 import './App.css';
-import Dashboard from './components/Dashboard';
 
 function App() {
   const [theme, setTheme] = useState('dark');
