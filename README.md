@@ -21,7 +21,7 @@ Say goodbye to hours of code reviews!
 ## 🔥 Demo Preview
 
 ### 👨‍💻 Code Editor
-![Home](Frontend/src/assets/pic1.pngpic1.png)
+![Home](Frontend/src/assets/pic1.png)
 
 ---
 
